@@ -1,4 +1,6 @@
 package com.example.taller1;
+import android.content.Intent;
+import android.view.View;
 
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -45,6 +47,18 @@ public class ListaActivity extends AppCompatActivity {
         mAdapter = new MyAdapter(pantallas);
         recyclerView.setAdapter(mAdapter);
     }
+
+
+
+    public void verMas (View view){
+        Intent i = new Intent(this, DetailsActivity.class);
+        Object id = view.getId();
+        Bundle parametros = new Bundle();
+        parametros.putString("id", id.toString());
+        i.putExtras(parametros);
+        startActivity(i);
+    }
+
 
 
     @Override

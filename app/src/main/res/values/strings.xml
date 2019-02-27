@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Taller1</string>
     <string name="title_activity_lista">ListaActivity</string>
+
+    <string name="option1"> Reanimación cardiorespiratoria o RCP</string>
+    <string name="option2"> Tratamiento de quemaduras</string>
+    <string name="option3">Actuación frente a hemorragias</string>
+    <string name="title_activity_detalles">detalles</string>
+    <string name="detalles1">
+        La rcp o reanimación cardio respiratoria es un procedimiento de emergencia que debe llevarse a cabo para salvar la vida de una persona cuando esta deja de respirar y el corazón ya no tiene latido. A través de ella se busca el restablecimiento del funcionamiento de corazón y pulmones.
+    </string>
+
+
 </resources>

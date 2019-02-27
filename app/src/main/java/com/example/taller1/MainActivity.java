@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ingresar(View view) {
+
         if(etNombre.getText().toString() == null || etNombre.getText().toString().equalsIgnoreCase("")){
             Toast.makeText(this, "Ingrese un nombre", Toast.LENGTH_SHORT).show();
         }else{
